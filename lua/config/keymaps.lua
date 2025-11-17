@@ -10,4 +10,4 @@ local function toggle_blink_cmp()
   end
   vim.notify("blink.cmp " .. (vim.b.blink_enabled and "enabled" or "disabled"))
 end
-vim.keymap.set({ "n", "i" }, "<leader>tc", toggle_blink_cmp, { desc = "Toggle blink.cmp" })
+vim.keymap.set({ "n" }, "<leader>tc", toggle_blink_cmp, { desc = "Toggle blink.cmp" })
