@@ -19,7 +19,6 @@ return {
 
     -- Optional: Use friendly-snippets (already in LazyVim)
     opts.snippets = {
-      enabled = true,
       preset = "default",
     }
 
